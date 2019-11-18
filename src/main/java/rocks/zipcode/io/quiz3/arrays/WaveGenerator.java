@@ -3,7 +3,7 @@ package rocks.zipcode.io.quiz3.arrays;
 /**
  * @author leon on 09/12/2018.
  */
-//What are you doin?
+//What are you doing?
 public class WaveGenerator {
     public static String[] wave(String str) {
         String [] wave = new String[str.length()];
@@ -35,6 +35,7 @@ public class WaveGenerator {
         for (int i = 0; i <newArr.length; i++) {
             newArr[i] = wave[i];
         }
-        return newArr;
+//        return newArr;
+        return wave;
     }
 }
